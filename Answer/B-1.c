@@ -21,7 +21,7 @@ int main()
 		c_begin=(double)(GetTickCount());
 		c_end=c_begin+interbal;
 		printf("%d %d",i/4+1,i%4+1);
-		while((double)(GetTickCount())<c_end)
+	while((double)(GetTickCount())<c_end)
   	{
  			//wait
   	}
